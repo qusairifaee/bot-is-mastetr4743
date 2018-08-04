@@ -99,4 +99,4 @@ client.on('message', message => {
 
 
 
-client.login('NDc1MjU5MjM0MzAxMjQ3NDg4.Dkce4Q.VcvmNBKoNXYh3uDPRV8x1vvVhK8');
+client.login(process.env.BOT_TOKEN);
