@@ -48,6 +48,23 @@ client.channels.find('id', '471650614233923595').setName("Welcome To DMR");
 });
 
 
+});
+
+
+
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '471294771634110465').setName("ش");
+client.channels.find('id', '471294771634110465').setName("شا");
+client.channels.find('id', '471294771634110465').setName("شات");
+client.channels.find('id', '471294771634110465').setName("شات C");
+client.channels.find('id', '471294771634110465').setName("شات CH");
+client.channels.find('id', '471294771634110465').setName("شات CHA");
+client.channels.find('id', '471294771634110465').setName("شات CHAT");
+  }, 3000);
+});
+
+
 
 
 
