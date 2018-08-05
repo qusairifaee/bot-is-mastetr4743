@@ -94,6 +94,7 @@ client.on('message', message => {
     }
     });
 
+
 client.on('message', message => {
  if (message.content.startsWith("ترحيب 1")) {
                                  var mentionned = message.mentions.users.first();
@@ -362,19 +363,7 @@ client.on('message', message => {
    message.channel.sendEmbed(EsTeKnAN);
   }
 });
-
-
-client.on('message', message => {
-    if (message.content.startsWith("الأمر")) {
-
-    message.guild.fetchInvites()
-    .then(invites => message.channel.send(`**:busts_in_silhouette:  اتيت ب     [${invites.find(invite => invite.inviter.id === message.author.id)}]    :calling:   عضو لهذا السيرفر    `))
-         
-    }
-});
-
-
-
+// الفا كود واذا حقوق احد راسل جاكيو
 
 
 client.login(process.env.BOT_TOKEN);
