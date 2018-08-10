@@ -4,7 +4,7 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`مشغول اكلم سفاح`,"http://twitch.tv/sfa7")
+  client.user.setGame(`لعيون دمار`,"http://twitch.tv/sfa7")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -46,10 +46,6 @@ client.channels.find('id', '471650614233923595').setName("Welcome To DM");
 client.channels.find('id', '471650614233923595').setName("Welcome To DMR");
   }, 3000);
 });
-
-
-});
-
 
 
 
@@ -97,8 +93,6 @@ client.on('message', message => {
     })
     }
     });
-
-
 
 
 
